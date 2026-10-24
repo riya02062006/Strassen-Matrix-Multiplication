@@ -1,28 +1,29 @@
 # Strassen Matrix Multiplication
 
-A Python-based GUI implementation of the **Strassen Matrix Multiplication Algorithm** using **CustomTkinter**.
+An interactive web application for visualizing and comparing Strassen's Matrix Multiplication algorithm with conventional matrix multiplication.
 
-This project demonstrates how Strassen's algorithm reduces the number of recursive matrix multiplications from 8 to 7, while providing a visual representation of the calculations.
+## 🚀 Live Demo
+
+**[Click here to use the application](PASTE_YOUR_STREAMLIT_APP_URL_HERE)**
 
 ## Features
 
-- Modern graphical user interface using CustomTkinter
-- Supports different matrix sizes
-- Matrix A and Matrix B input through GUI
-- Normal matrix multiplication
-- Strassen matrix multiplication
-- Automatic padding for non-power-of-two matrix sizes
-- Displays the final result as a matrix grid
-- Displays important intermediate calculations M1–M7
-- Displays C11, C12, C21 and C22 calculations
-- Performance comparison between normal multiplication and Strassen multiplication
-- Automatic verification of the results
+- Interactive matrix input
+- Strassen's matrix multiplication
+- Conventional matrix multiplication
+- Result verification
+- Intermediate products M1–M7
+- Execution-time comparison
 
 ## Technologies Used
 
 - Python
-- CustomTkinter
-- Tkinter
-- Strassen Matrix Multiplication Algorithm
+- Streamlit
+- Divide and Conquer
 
+## How to Run Locally
 
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
