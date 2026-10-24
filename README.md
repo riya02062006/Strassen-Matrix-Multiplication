@@ -25,10 +25,4 @@ This project demonstrates how Strassen's algorithm reduces the number of recursi
 - Tkinter
 - Strassen Matrix Multiplication Algorithm
 
-## Strassen Algorithm
 
-For two matrices divided into four submatrices:
-
-```text
-A = | A11  A12 |       B = | B11  B12 |
-    | A21  A22 |           | B21  B22 |
