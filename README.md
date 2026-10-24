@@ -1,29 +1,47 @@
 # Strassen Matrix Multiplication
 
-An interactive web application for visualizing and comparing Strassen's Matrix Multiplication algorithm with conventional matrix multiplication.
+An interactive web application to visualize and compare Strassen's Matrix Multiplication algorithm with conventional matrix multiplication.
 
 ## 🚀 Live Demo
 
-**[Click here to use the application](PASTE_YOUR_STREAMLIT_APP_URL_HERE)**
+**[Run the Application](https://tprbjo3ypdahfvd3cfgteb.streamlit.app/)**
 
-## Features
+## ✨ Features
 
 - Interactive matrix input
-- Strassen's matrix multiplication
+- Strassen's matrix multiplication algorithm
 - Conventional matrix multiplication
-- Result verification
 - Intermediate products M1–M7
+- Result verification
 - Execution-time comparison
 
-## Technologies Used
+## 🛠️ Technologies Used
 
 - Python
 - Streamlit
 - Divide and Conquer
 
-## How to Run Locally
+## 💻 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/riya02062006/Strassen-Matrix-Multiplication.git
+cd Strassen-Matrix-Multiplication
+```
+
+Install the dependencies:
 
 ```bash
 pip install -r requirements.txt
+```
+
+Run the application:
+
+```bash
 streamlit run app.py
 ```
+
+## 📌 Project Overview
+
+This project demonstrates how Strassen's algorithm reduces the number of recursive matrix multiplications compared with the conventional divide-and-conquer approach, while allowing users to compare the resulting matrices interactively.
